@@ -1,0 +1,222 @@
+/* ================================
+    Background Color Styling
+================================ */
+
+.dark-layout.custom-popup,
+.dark-layout .bg-color-primary {
+  background-color: var(--dark_primary-color) !important;
+}
+
+.dark-layout .page-routes-button.hover-bg-primary:hover,
+.dark-layout .page-routes-button.bg-color-primary {
+  background-color: var(--white-color) !important;
+  color: var(--dark_primary-color) !important;
+}
+
+.dark-layout select option,
+.dark-layout .bg-white {
+  background-color: var(--dark_primary-color) !important;
+}
+
+.dark-layout .page-item:not(.prev):not(.next):hover,
+.dark-layout .page-item.active {
+  background-color: var(--dark_secondary-color-40) !important;
+}
+
+.dark-layout .bg-color-titan-white {
+  background-color: var(--dark_titan-white-color) !important;
+}
+
+.dark-layout .form-check-input:checked,
+.dark-layout .overflow-scroll-design::-webkit-scrollbar-thumb {
+  background-color: var(--dark_white-color) !important;
+}
+
+.dark-layout .placeholder.bg-color-secondary {
+  background-color: var(--dark_white-color) !important;
+}
+
+.dark-layout .bg-color-secondary-40 {
+  background-color: var(--dark_secondary-color-40) !important;
+}
+
+.dark-layout #nav-icon4 span {
+  background: var(--white-color) !important;
+}
+
+.dark-layout.admin-main-layout .side-navbar .nav-list:hover {
+  background-color: var(--dark_secondary-color-40) !important;
+}
+
+.dark-layout .common-border-color {
+  border-color: var(--white-color-15) !important;
+}
+
+.dark-layout .hover-bg-color-titan-white:hover {
+  background-color: var(--dark_titan-white-color);
+}
+
+/* ================================
+    Text Color Styling
+================================ */
+
+.dark-layout .page-item {
+  --bs-pagination-color: var(--white-color) !important;
+  --bs-pagination-hover-color: var(--white-color) !important;
+}
+
+.dark-layout .page-link:focus {
+  --bs-pagination-focus-color: var(--white-color) !important;
+}
+
+/* .dark-layout .page-link:focus {
+  color: var(--white-color) !important;
+} */
+
+.dark-layout .page-item {
+  --bs-pagination-disabled-color: var(--dark_white-color) !important;
+}
+
+.dark-layout.custom-popup .swal2-title,
+.dark-layout .text-color-primary {
+  color: var(--white-color) !important;
+}
+
+.dark-layout .hover-color-primary:hover {
+  color: var(--white-color) !important;
+}
+
+.dark-layout .placeholder-secondary::placeholder,
+.dark-layout.custom-popup .swal2-html-container,
+.dark-layout .text-color-secondary {
+  color: var(--dark_white-color) !important;
+}
+
+line,
+.dark-layout .salary-overview .apexcharts-text {
+  stroke: var(--dark_white-color) !important;
+}
+
+/* .dark-layout line {
+  opacity: 0.3 !important;
+} */
+
+/* ========================== 
+       input field css 
+========================== */
+.dark-layout .button-border-blue,
+.dark-layout .blue-border-focus-within,
+.dark-layout .admin-input-field .input-border-blue,
+.dark-layout .admin-input-field .input-border-red,
+.dark-layout .admin-input-field .input-border {
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+.dark-layout .blue-border-focus-within:focus-within,
+.dark-layout .admin-input-field .input-border-blue:focus,
+.dark-layout .admin-input-field .input-border-red:focus {
+  color: white !important;
+  background-color: #2f373e !important;
+}
+
+.dark-layout .blue-border-focus-within:focus-within .text-color-secondary {
+  color: white !important;
+  transition: background-color 5000s ease-in-out;
+}
+
+.dark-layout .input-autofill-color:-webkit-autofill,
+.dark-layout .input-autofill-color:-webkit-autofill:focus,
+.dark-layout .input-autofill-color:-webkit-autofill:hover,
+.dark-layout .input-autofill-color:-webkit-autofill:active {
+  box-shadow: 0 0 0 1000px var(--dark_primary-color) inset !important;
+  -webkit-text-fill-color: #ffffff !important;
+  transition: background-color 5000s ease-in-out;
+  caret-color: white;
+}
+
+.dark-layout .input-field-bg,
+.dark-layout .tag-input {
+  background-color: var(--dark_primary-color) !important;
+}
+
+/* =========================== 
+        common button 
+=========================== */
+
+.dark-layout .admin-primary-btn:active,
+.dark-layout .admin-primary-btn:focus-visible,
+.dark-layout .admin-primary-btn {
+  background-color: var(--facebook-blue-color) !important;
+  transition: filter 0.3s !important;
+}
+
+.dark-layout .admin-primary-btn:active:hover,
+.dark-layout .admin-primary-btn:focus-visible:hover,
+.dark-layout .admin-primary-btn:hover {
+  background-color: var(--facebook-blue-color) !important;
+  filter: brightness(80%);
+}
+
+.dark-layout .modal-content {
+  background-color: #2f373e !important;
+}
+
+/* =========================== 
+        border-color
+=========================== */
+
+.dark-layout .border-color-primary {
+  border-color: var(--white-color) !important;
+}
+
+.dark-layout .filepond--panel-root {
+  background: var(--dark_titan-white-color) !important;
+  /* border: 1px solid var(--common-border-color) !important; */
+}
+
+.dark-layout .filepond--drop-label {
+  color: var(--white-color);
+}
+
+/* ========================
+        react quill
+===========================*/
+
+.dark-layout .ql-toolbar {
+  background-color: var(--dark_titan-white-color);
+}
+
+.dark-layout .ql-toolbar .ql-stroke {
+  stroke: white !important;
+}
+
+.dark-layout .ql-toolbar .ql-fill {
+  fill: white;
+}
+
+.dark-layout .ql-toolbar .ql-picker {
+  color: white !important;
+}
+
+.dark-layout .quill .ql-container {
+  background-color: var(--dark_primary-color);
+  color: white;
+}
+
+.dark-layout .quill .ql-picker-options {
+  background-color: #2f373e;
+}
+
+.dark-layout .quill .ql-container {
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+.dark-layout .quill .ql-toolbar {
+  border: 1px solid rgba(255, 255, 255, 0.329) !important;
+}
+
+.dark-layout .quill:focus .ql-container,
+.dark-layout .quill:focus-within .ql-container {
+  border-bottom: 2px solid var(--facebook-messenger-color) !important;
+  background-color: #2f373e !important;
+}
