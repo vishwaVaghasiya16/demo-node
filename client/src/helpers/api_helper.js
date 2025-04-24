@@ -9,7 +9,7 @@ const getToken = () => {
 };
 
 const api = axios.create({
-  baseURL: baseUrl || "http://139.59.67.2:8005",
+  baseURL: baseUrl || "http://localhost:8080",
   // headers: {
   //   "Content-Type": "application/json",
   // },

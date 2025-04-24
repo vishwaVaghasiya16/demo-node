@@ -101,11 +101,9 @@ const SideBar = () => {
                   />
                 ) : (
                   <img
-                    src={
-                      "https://pms.logicgoinfotech.com/static/media/logo-light.bc7f2c0a3afdbe6e18bc2c4f95df254c.svg"
-                    }
+                    src={"/assets/common/ALUKAS%20&amp;%20CO.webp"}
                     alt="logo"
-                    className="h-40 w-auto d-block mx-auto"
+                    className="logo d-block mx-auto"
                   />
                 )}
               </div>
@@ -331,11 +329,9 @@ const SideBar = () => {
                 >
                   <div className="bg-color-primary logo-bar h-60 d-flex align-items-center justify-content-center border-bottom border-color-white-15">
                     <img
-                      src={
-                        "https://pms.logicgoinfotech.com/static/media/logo-light.bc7f2c0a3afdbe6e18bc2c4f95df254c.svg"
-                      }
+                      src={"/assets/common/ALUKAS%20&amp;%20CO.webp"}
                       alt="logo"
-                      className="h-40 w-auto d-block me-auto ps-3"
+                      className="logo d-block mx-auto"
                     />
                   </div>
                 </Link>

@@ -15,7 +15,7 @@ const ContactUs = () => {
   const { contactUsList, contactUsPaginationData, loading } = useSelector(
     (store) => store.ContactUs
   );
-  const [limit] = useState(4);
+  const [limit, setLimit] = useState(4);
   const [currentPage, setCurrentPage] = useState(1);
 
   const handleLoadMoreProduct = () => {

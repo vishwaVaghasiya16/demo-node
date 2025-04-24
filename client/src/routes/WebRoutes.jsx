@@ -1,8 +1,6 @@
 // import Home from "../pages/web/Home";
-
-import ContactUs from "../pages/web/accountDetails/contactUs";
-import MyAccount from "../pages/web/accountDetails/myAccount";
-import AboutUs from "../pages/web/aboutUs";
+import MyAccount from '../pages/web/accountDetails/MyAccount/index'
+import AboutUs from "../pages/web/AboutUs/index";
 import ShowProducts from "../pages/web/products/ShowProducts";
 import { CLIENT } from "./routesConstants";
 import ProductDetails from "../pages/web/productDetails";
@@ -19,9 +17,10 @@ import { authRequirementEnum } from "../helpers/enum";
 import BlogDetails from "../pages/web/blogs/BlogDetails";
 import PaymentResponse from "../pages/web/cart/paymentResponse";
 import CollectionsOverview from "../pages/web/collectionsOverview";
-import OrderHistory from "../pages/web/accountDetails/orderHistory";
-import OrderDetails from "../pages/web/accountDetails/orderHistory/OrderDetails";
+import OrderHistory from "../pages/web/accountDetails/OrderHistory/index";
+import OrderDetails from "../pages/web/accountDetails/OrderHistory/OrderDetails";
 import SearchProduct from "../pages/web/products/SearchProduct";
+import { CONTACT_US } from "../helpers/url_helper";
 
 const PARAMS_SLUG = "/:slug";
 const PARAMS_ID = "/:id";
@@ -52,7 +51,7 @@ export const WebRoutes = [
   {
     authRequirement: authRequired,
     path: CLIENT.ACCOUNT_DETAILS.CONTACT_US,
-    component: <ContactUs />,
+    component: <CONTACT_US />,
   },
   {
     authRequirement: authRequired,
